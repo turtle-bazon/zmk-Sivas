@@ -1,4 +1,3 @@
 include:
   - board: rp2040_zero
     shield: Sivas
-    cmake-args: -DCONFIG_ZMK_BOARD_COMPAT=y
