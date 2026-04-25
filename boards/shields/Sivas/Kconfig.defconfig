@@ -1,0 +1,13 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_Sivas
+
+config ZMK_KEYBOARD_NAME
+    default "Sivas"
+
+config ZMK_SPLIT
+    default n
+endif
+
+

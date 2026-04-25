@@ -1,0 +1,14 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "PNCATEHO_Welcome_keyboard.dtsi"
+
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+    };
+};
+

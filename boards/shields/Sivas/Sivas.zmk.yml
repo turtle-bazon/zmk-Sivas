@@ -1,0 +1,12 @@
+file_format: "1"
+id: Sivas
+name: Sivas
+type: shield
+url: https://Sivas
+features:
+  - keys
+  - underglow
+  - studio
+outputs:
+  - usb
+

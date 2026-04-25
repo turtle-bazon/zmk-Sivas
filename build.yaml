@@ -1,0 +1,4 @@
+include:
+  - board: PNCATEHO_Welcome_board
+    shield: PNCATEHO_Welcome_keyboard
+

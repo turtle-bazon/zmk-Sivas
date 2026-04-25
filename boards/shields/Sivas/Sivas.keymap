@@ -1,0 +1,46 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
+
+// CONFIG
+#define COMBO_TIMEOUT 70
+#define STICKY_TIMEOUT 500
+
+#define COMBO_LAYER 0
+
+#define SN 0  // TOP
+#define SA 1  // TOP
+#define SE 2  // TOP
+#define SO 3  // TOP
+#define SP 4  // BOTTOM
+#define SC 5  // BOTTOM
+#define ST 6  // BOTTOM
+#define SH 7  // BOTTOM
+#define SOT 8 // O-THUMB
+#define SIT 9 // I-THUMB
+
+&sk {
+    release-after-ms = <STICKY_TIMEOUT>;
+    quick-release;
+};
+
+/ {
+  keymap {
+    compatible = "zmk,keymap";
+
+    default_layer {
+      bindings = <
+        &none &none &none &none
+        &none &none &none &none
+                          &none &none
+      >;
+    };
+  };
+};
+
