@@ -3,4 +3,5 @@
 
 config SHIELD_Sivas
     def_bool $(shields_list_contains,Sivas)
+    select ZMK_BOARD_COMPAT
 
