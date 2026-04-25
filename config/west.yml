@@ -2,17 +2,11 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: inpudiy
-      url-base: https://github.com/inpudiy
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-waveshare_rp2040_zero
-      remote: inpudiy
-      revision: main
-      import: config/west.yml
   self:
     path: config
 
