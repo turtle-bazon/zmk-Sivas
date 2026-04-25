@@ -1,4 +1,4 @@
 include:
-  - board: PNCATEHO_Welcome_board
-    shield: PNCATEHO_Welcome_keyboard
+  - board: waveshare_rp2040_zero
+    shield: Sivas
 
